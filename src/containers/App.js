@@ -1,16 +1,23 @@
 import React, { Component } from 'react';
-import AvengersList from './AvengersList';
+import AvengersList from '../components/AvengersList';
 import { avengers } from './avengers';
-import SearchBox from './SearchBox';
+import SearchBox from '../components/SearchBox';
+import Scroll from '../components/Scroll';
+import ErrorBoundary from '../components/ErrorBoundary';
+import './App.css';
 
 class App extends Component {
 	constructor() {
 	super()
 	this.state = {
-	avengers: avengers,
+	avengers: [],
     searchChange: ''
 	}
 	}
+
+componentDidMount() {
+	this.setState({ avengers: avengers});
+}
 
 onSearchChange = (event) => {
    this.setState({searchChange: event.target.value})
@@ -26,12 +33,16 @@ onSearchChange = (event) => {
    })
 	return (
 		<div className='tc'>
-		<h1>Marvels Avengers</h1>
+		<h1 className='f1'>Marvels Avengers</h1>
 		<SearchBox searchChange={this.onSearchChange}/>
+		<Scroll>
+		<ErrorBoundary>
 		<AvengersList avengers={filteredAvengers}/>
+		</ErrorBoundary>
+		</Scroll>
 		</div>
 
-	);
+	)
 }
 }
 
