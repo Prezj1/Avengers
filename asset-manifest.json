@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/avengers/static/css/main.642ab8b6.chunk.css",
-    "main.js": "/avengers/static/js/main.02d5184b.chunk.js",
-    "main.js.map": "/avengers/static/js/main.02d5184b.chunk.js.map",
-    "runtime-main.js": "/avengers/static/js/runtime-main.bd62e0b3.js",
-    "runtime-main.js.map": "/avengers/static/js/runtime-main.bd62e0b3.js.map",
-    "static/css/2.fe359a49.chunk.css": "/avengers/static/css/2.fe359a49.chunk.css",
-    "static/js/2.61e6cb18.chunk.js": "/avengers/static/js/2.61e6cb18.chunk.js",
-    "static/js/2.61e6cb18.chunk.js.map": "/avengers/static/js/2.61e6cb18.chunk.js.map",
-    "static/js/3.ed53d54c.chunk.js": "/avengers/static/js/3.ed53d54c.chunk.js",
-    "static/js/3.ed53d54c.chunk.js.map": "/avengers/static/js/3.ed53d54c.chunk.js.map",
-    "index.html": "/avengers/index.html",
-    "static/css/2.fe359a49.chunk.css.map": "/avengers/static/css/2.fe359a49.chunk.css.map",
-    "static/css/main.642ab8b6.chunk.css.map": "/avengers/static/css/main.642ab8b6.chunk.css.map",
-    "static/js/2.61e6cb18.chunk.js.LICENSE.txt": "/avengers/static/js/2.61e6cb18.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/avengers/static/media/Captainmarvel-anm9.9cb8b159.woff"
+    "main.css": "/static/css/main.ed92c842.chunk.css",
+    "main.js": "/static/js/main.57fbcbc7.chunk.js",
+    "main.js.map": "/static/js/main.57fbcbc7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a77fecd4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a77fecd4.js.map",
+    "static/css/2.fe359a49.chunk.css": "/static/css/2.fe359a49.chunk.css",
+    "static/js/2.61e6cb18.chunk.js": "/static/js/2.61e6cb18.chunk.js",
+    "static/js/2.61e6cb18.chunk.js.map": "/static/js/2.61e6cb18.chunk.js.map",
+    "static/js/3.ed53d54c.chunk.js": "/static/js/3.ed53d54c.chunk.js",
+    "static/js/3.ed53d54c.chunk.js.map": "/static/js/3.ed53d54c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.fe359a49.chunk.css.map": "/static/css/2.fe359a49.chunk.css.map",
+    "static/css/main.ed92c842.chunk.css.map": "/static/css/main.ed92c842.chunk.css.map",
+    "static/js/2.61e6cb18.chunk.js.LICENSE.txt": "/static/js/2.61e6cb18.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/Captainmarvel-anm9.9cb8b159.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.bd62e0b3.js",
+    "static/js/runtime-main.a77fecd4.js",
     "static/css/2.fe359a49.chunk.css",
     "static/js/2.61e6cb18.chunk.js",
-    "static/css/main.642ab8b6.chunk.css",
-    "static/js/main.02d5184b.chunk.js"
+    "static/css/main.ed92c842.chunk.css",
+    "static/js/main.57fbcbc7.chunk.js"
   ]
 }
